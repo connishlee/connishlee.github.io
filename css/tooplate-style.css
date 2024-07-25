@@ -236,6 +236,7 @@ strong {
 .lang {
   margin-bottom: 0;
   margin-left: 10px;
+  filter: 0;
 }
 
 .point {
@@ -248,6 +249,11 @@ strong {
   height: 20px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.dark-mode .pointer {
+  filter: invert(82%) sepia(16%) saturate(18%) hue-rotate(357deg)
+    brightness(87%) contrast(90%);
 }
 
 @keyframes fade-up {
