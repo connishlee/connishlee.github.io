@@ -442,9 +442,10 @@ mark {
   max-height: 500px;
   height: auto;
   border-radius: 15px;
-  animation: fade-up 1.25s;
+  animation: fade-up 1.75s;
   box-shadow: -7px 7px 0px;
 }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

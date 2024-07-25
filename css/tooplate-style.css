@@ -65,6 +65,7 @@ h5,
 h6 {
   font-weight: bold;
   letter-spacing: -1px;
+  color: #484848;
 }
 
 h1 {
@@ -125,7 +126,7 @@ strong {
 }
 
 .animated-nav {
-  animation: fade-down 0.8s;
+  animation: fade-down 2s;
 }
 
 /* custom classes */
@@ -138,7 +139,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  animation: fade-up 0.8s;
+  animation: fade-up 1.5s;
 }
 
 .animated-item:nth-child(2n + 2) {
@@ -149,7 +150,7 @@ strong {
 }
 
 .about-text {
-  animation: fade-up 0.8s;
+  animation: fade-up 1.5s;
 }
 
 .about-paragraph {
@@ -158,6 +159,14 @@ strong {
   line-height: 1.5;
   width: 35vw;
   color: #5b5b5b;
+}
+
+.timeline-title {
+  font-size: 25px;
+}
+
+.resume-paragraph {
+  font-size: 16px;
 }
 
 .name {
@@ -184,32 +193,26 @@ strong {
   padding: 35px;
   margin: 0 20px 20px 0;
   border-radius: 8px;
-  border: 2px solid black;
+  border: 1.25px solid black;
   box-shadow: -7px 7px 0px;
   /* background-color: rgba(127, 173, 173, 0.2); */
 }
 
 .project-container {
   opacity: 0;
-  transition: all 1s;
   filter: blur(5px);
   transform: translateX(-50%);
 }
 
 .show {
   opacity: 1;
+  transition: all 1s;
   filter: blur(0);
   transform: translateX(0);
 }
 
 .project-container:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-@media (prefers-reduced-motion) {
-  .project-container {
-    transition: none !important;
-  }
+  transition-delay: 250ms;
 }
 
 .project-title,
@@ -218,7 +221,7 @@ strong {
 }
 
 .project-desc {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .project-list {
