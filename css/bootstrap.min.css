@@ -7576,6 +7576,11 @@ button.bg-dark:hover {
 .mx-auto {
   margin-left: auto !important;
 }
+
+.al-center {
+  margin-left: auto !important;
+}
+
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
