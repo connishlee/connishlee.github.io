@@ -173,6 +173,7 @@ strong {
 
 .dark-mode .social-icon img {
   filter: invert(1);
+  transition: filter 0.5s ease;
 }
 
 .project-list .project-container {
